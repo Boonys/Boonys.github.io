@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something for u</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #83fff3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .card h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .options button {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .options button:hover {
+            background-color: #0056a3;
+        }
+
+        .options button.decline {
+            background-color: #e63946;
+        }
+
+        .options button.decline:hover {
+            background-color: #c32734;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>I want to give you a gift, gimana kalo kita rayakan sambil piknik. mau?</h2>
+        <div class="options">
+            <button onclick="alert('Yay! kita bicarakan di whatsapp yaawww 😊')">Ya</button>
+            <button class="decline" onclick="alert('huhuhu, its okayy mungkin di lain waktu. 😢')">Tidak</button>
+        </div>
+    </div>
+</body>
+</html>
